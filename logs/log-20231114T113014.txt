@@ -1,0 +1,95 @@
+2023-11-14 11:30:17,165 INFO m.ApplicationManager [ApplicationManager.java:35] created chrome browser
+2023-11-14 11:30:23,313 INFO m.ApplicationManager [ApplicationManager.java:47] navigated to the url: https://ilcarro.web.app/search
+2023-11-14 11:30:23,315 INFO m.TestNGListener [TestNGListener.java:51] start test - onstart - : Gradle test
+2023-11-14 11:30:23,341 INFO m.WDListener [WDListener.java:49] navigate to: https://ilcarro.web.app/search
+2023-11-14 11:30:23,611 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //a[contains(@href, '/login')]
+2023-11-14 11:30:23,639 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //a[contains(@href, '/login')]
+2023-11-14 11:30:23,675 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:23,757 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:23,758 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //input[@id='email']
+2023-11-14 11:30:23,788 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //input[@id='email']
+2023-11-14 11:30:23,789 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:23,865 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:24,012 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //input[@id='password']
+2023-11-14 11:30:24,035 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //input[@id='password']
+2023-11-14 11:30:24,035 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:24,072 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:24,153 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //button[@type='submit']
+2023-11-14 11:30:24,174 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //button[@type='submit']
+2023-11-14 11:30:24,175 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:24,230 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:24,259 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //h2[@class='message']
+2023-11-14 11:30:25,234 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //h2[@class='message']
+2023-11-14 11:30:25,258 INFO m.WDListener [WDListener.java:179] get text from the element with text: Logged in success
+2023-11-14 11:30:25,268 INFO m.WDListener [WDListener.java:185] got the text successful
+2023-11-14 11:30:25,269 INFO m.WDListener [WDListener.java:124] start execute js script: document.querySelector(`[type='button']`).click();
+2023-11-14 11:30:25,290 INFO m.WDListener [WDListener.java:130] script executed success
+2023-11-14 11:30:25,304 INFO t.BaseTest [BaseTest.java:46] stop method: addNewCarTest
+2023-11-14 11:30:25,305 INFO t.BaseTest [BaseTest.java:41] start method: addNewCarTest
+2023-11-14 11:30:25,307 INFO m.TestNGListener [TestNGListener.java:16] started test: addNewCarTest
+2023-11-14 11:30:27,312 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //a[contains(@href,'let-car-work')]
+2023-11-14 11:30:27,364 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //a[contains(@href,'let-car-work')]
+2023-11-14 11:30:27,365 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:27,469 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:27,470 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //input[@id='pickUpPlace']
+2023-11-14 11:30:27,493 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //input[@id='pickUpPlace']
+2023-11-14 11:30:27,493 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:27,540 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:27,636 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //div[contains(@class, 'pac-container pac-logo hdpi') and not(contains(@style, 'display: none'))]
+2023-11-14 11:30:28,054 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //div[contains(@class, 'pac-container pac-logo hdpi') and not(contains(@style, 'display: none'))]
+2023-11-14 11:30:28,230 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //input[@id='make']
+2023-11-14 11:30:28,259 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //input[@id='make']
+2023-11-14 11:30:28,259 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:28,304 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:28,395 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //input[@id='model']
+2023-11-14 11:30:28,413 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //input[@id='model']
+2023-11-14 11:30:28,414 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:28,460 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:28,545 INFO m.WDListener [WDListener.java:90] before find element: By.id: year
+2023-11-14 11:30:28,568 INFO m.WDListener [WDListener.java:96] element found success: By.id: year
+2023-11-14 11:30:28,569 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:28,620 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:28,721 INFO m.WDListener [WDListener.java:90] before find element: By.id: fuel
+2023-11-14 11:30:28,741 INFO m.WDListener [WDListener.java:96] element found success: By.id: fuel
+2023-11-14 11:30:28,742 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:28,830 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:30,832 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //option[@value='Diesel']
+2023-11-14 11:30:30,881 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //option[@value='Diesel']
+2023-11-14 11:30:30,882 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:30,930 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:30,931 INFO m.WDListener [WDListener.java:90] before find element: By.id: seats
+2023-11-14 11:30:30,952 INFO m.WDListener [WDListener.java:96] element found success: By.id: seats
+2023-11-14 11:30:30,953 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:31,009 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:31,096 INFO m.WDListener [WDListener.java:90] before find element: By.id: class
+2023-11-14 11:30:31,127 INFO m.WDListener [WDListener.java:96] element found success: By.id: class
+2023-11-14 11:30:31,127 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:31,171 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:31,258 INFO m.WDListener [WDListener.java:90] before find element: By.id: serialNumber
+2023-11-14 11:30:31,280 INFO m.WDListener [WDListener.java:96] element found success: By.id: serialNumber
+2023-11-14 11:30:31,281 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:31,323 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:31,431 INFO m.WDListener [WDListener.java:90] before find element: By.id: price
+2023-11-14 11:30:31,455 INFO m.WDListener [WDListener.java:96] element found success: By.id: price
+2023-11-14 11:30:31,455 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:31,503 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:34,585 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //button[@type='submit']
+2023-11-14 11:30:34,637 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //button[@type='submit']
+2023-11-14 11:30:34,640 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:34,713 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:34,714 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-11-14 11:30:35,155 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //div[@class='dialog-container']//h1[@class='title']
+2023-11-14 11:30:35,173 INFO m.WDListener [WDListener.java:179] get text from the element with text: Car added
+2023-11-14 11:30:35,183 INFO m.WDListener [WDListener.java:185] got the text successful
+2023-11-14 11:30:35,189 INFO m.TestNGListener [TestNGListener.java:22] test success: addNewCarTest
+2023-11-14 11:30:35,190 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //button[contains(@class, 'negative-button')]
+2023-11-14 11:30:35,215 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //button[contains(@class, 'negative-button')]
+2023-11-14 11:30:35,217 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:35,273 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:35,273 INFO m.WDListener [WDListener.java:90] before find element: By.xpath: //a[contains(@href, 'logout')]
+2023-11-14 11:30:35,301 INFO m.WDListener [WDListener.java:96] element found success: By.xpath: //a[contains(@href, 'logout')]
+2023-11-14 11:30:35,303 INFO m.WDListener [WDListener.java:102] start method click
+2023-11-14 11:30:35,445 INFO m.WDListener [WDListener.java:108] done method click
+2023-11-14 11:30:35,447 INFO m.WDListener [WDListener.java:49] navigate to: https://ilcarro.web.app/search
+2023-11-14 11:30:35,744 INFO m.TestNGListener [TestNGListener.java:57] all code executed: passed tests: [ResultMap map=[[TestResult name=addNewCarTest status=SUCCESS method=CarTests.addNewCarTest()[pri:0, instance:tests.CarTests@71def8f8] output={null}]]]
+2023-11-14 11:30:35,744 INFO m.TestNGListener [TestNGListener.java:58] all code executed: failed tests: [ResultMap map=[]]
